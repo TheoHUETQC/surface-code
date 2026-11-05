@@ -28,9 +28,10 @@ Since the no-cloning theorem prevents copying a quantum state to check if it has
   * Artificially injecting Pauli errors ($X$, $Z$, $Y$).
   * Simulation using Qiskit (`AerSimulator`) and implementing a classical decoder via a **Look-up Table**.
 
+* **`machine_learning_decoder_for_surface_codes.ipynb`** *(in progress)* : 
+  I would like to work on using Machine Learning methods (PyTorch MLP) to replace the classical look-up table, allowing us to handle complex syndromes and correct multiple errors with a weight greater than 1.
+
 ### Future Notebooks (Upcoming Projects):
-* **Machine Learning for Decoding Notebook** *(Coming Soon)* : 
-  I would like to work on using Machine Learning methods to replace the classical look-up table, allowing us to handle complex syndromes and correct multiple errors with a weight greater than 1.
 * **Google Quantum AI - Scaling & Fault Tolerance Notebook** *(Coming Soon)* : 
   I would like to reproduce and analyze the results of Google's landmark 2023 paper on the suppression of logical errors through surface code scaling.
 
@@ -48,3 +49,4 @@ Since the no-cloning theorem prevents copying a quantum state to check if it has
   Research article by Google Quantum AI (2023).
 - **Machine Learning for Physics** (2025-2026) 
   Midlands Physics Alliance Graduate School (MPAGS): Course Module, Access: [https://warwick.ac.uk/fac/sci/physics/mpags/modules/comp/machinelearning/25-26/](https://warwick.ac.uk/fac/sci/physics/mpags/modules/comp/machinelearning/25-26/)
+- **PyTorch documentation** [https://docs.pytorch.org/docs/main/](https://docs.pytorch.org/docs/main/)
